@@ -15,3 +15,10 @@ class ProductSerializer(serializers.ModelSerializer):
             "get_image",
             "get_thumbnail",
         )
+        
+class CategorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Category
+        fields = (
+            
+        )
