@@ -2,7 +2,7 @@
   <div class="home">
     <section class="hero is-medium is-dark mb-6">
       <div class="hero-body has-text-centered">
-        <p class="title mb-6">Welcome to Djacket</p>
+        <p class="title mb-6">Welcome to S/W Jackets</p>
         <p class="subtitle">The best jacket store online</p>
       </div>
     </section>
@@ -21,7 +21,11 @@
           </figure>
           <h3 class="is-size-4">{{ product.name }}</h3>
           <p class="is-size-6 has-text-grey">${{ product.price }}</p>
-          View Details
+          <router-link
+            v-bind:to="product.get_absolute_url"
+            class="button is-dark mt-4"
+            >View Details</router-link
+          >
         </div>
       </div>
     </div>
@@ -63,5 +67,9 @@ export default {
   margin-top: -1.25rem;
   margin-left: -1.25rem;
   margin-right: -1.25rem;
+  height: 400px;
+}
+.image img {
+  height: 300px;
 }
 </style>
