@@ -2,7 +2,7 @@
   <div class="page-product">
     <div class="columns is-multiline">
       <div class="column is-9">
-        <figure class="image mb-6" style="width: 400px">
+        <figure class="image mb-6">
           <img v-bind:src="product.get_image" alt="" />
         </figure>
         <h1 class="title">{{ product.name }}</h1>
@@ -52,6 +52,7 @@ export default {
         .get(`/api/v1/products/${category_slug}/${product_slug}`)
         .then((response) => {
           this.product = response.data;
+          document.title = this.product.name + " | Djackets";
         })
         .catch((error) => {
           console.log(error);
