@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# stripe
+STRIPE_SECRET_KEY ='sk_test_51L9CbWCPyKFs9GTqo5QInUwcyCZlqpKi3zHjjoen8nuoaQy1kheop80h65W3bBIK1TlRIzCNh2fBdAjKfzgFR9p700mxJyNke4'
+
+
 
 # Application definition
 
@@ -39,13 +43,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
+    
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
     'djoser',
+    # 'rest_framework_simplejwt',
     
-    
-    'product'
+    'product',
+    # 'order'
     
 ]
 
@@ -68,6 +74,10 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'djackets_django.urls'
+
+# REST_FRAMEWORK = {
+    
+# }
 
 TEMPLATES = [
     {

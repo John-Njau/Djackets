@@ -81,6 +81,7 @@ export default {
         position: "bottom-right",
         pauseOnHover: true,
         dismissible: true,
+        
       });
     },
   },

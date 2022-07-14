@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun  1 18:50:43 2022
+# Make data base, printed on Thu Jul 14 09:35:02 2022
 
 # Variables
 
@@ -29,7 +29,7 @@ XDG_SESSION_TYPE = x11
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
-NVM_INC = /home/moringa/.nvm/versions/node/v17.9.0/include/node
+NVM_INC = /home/moringa/.nvm/versions/node/v18.4.0/include/node
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
@@ -49,9 +49,9 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-_ = /usr/share/code/code
+_ = /usr/bin/dbus-update-activation-environment
 # environment
-JOURNAL_STREAM = 8:44063
+JOURNAL_STREAM = 8:43781
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -69,11 +69,11 @@ MAKELEVEL := 0
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=a039c979db09055ae9b7ebac62cfb09e
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 1288
+MANAGERPID = 1444
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -83,17 +83,17 @@ VSCODE_CWD = /home/moringa
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/moringa/.local/bin:/home/moringa/.nvm/versions/node/v17.9.0/bin:/home/moringa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/moringa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/x1-carbon:@/tmp/.ICE-unix/1501,unix/x1-carbon:/tmp/.ICE-unix/1501
+SESSION_MANAGER = local/x1-carbon:@/tmp/.ICE-unix/1654,unix/x1-carbon:/tmp/.ICE-unix/1654
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-NVM_BIN = /home/moringa/.nvm/versions/node/v17.9.0/bin
+NVM_BIN = /home/moringa/.nvm/versions/node/v18.4.0/bin
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -101,7 +101,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 2262be7ad79b4eaea4338abd8d7483b4
+INVOCATION_ID = d2020dbdba72466494353cc476f61418
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -111,7 +111,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2322
+GIO_LAUNCHED_DESKTOP_FILE_PID = 6823
 # automatic
 %F = $(notdir $%)
 # environment
@@ -123,7 +123,7 @@ PWD = /home/moringa/Documents/PrimeDevs/Django-Vue/Djackets
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1462
+SSH_AGENT_PID = 1616
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -135,7 +135,7 @@ HOME = /home/moringa
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
-VSCODE_CODE_CACHE_PATH = /home/moringa/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+VSCODE_CODE_CACHE_PATH = /home/moringa/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LOGNAME = moringa
 # environment
@@ -163,7 +163,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-2592662e-078e-43f2-8791-e193847ba788.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a251f5f8-08f1-4509-9839-12c5b728a77b.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -185,7 +185,7 @@ MAKE_COMMAND := make
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-f7ab82b0-1.67.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-f7ab82b0-1.68.1-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -201,6 +201,8 @@ GDK_BACKEND = x11
 # environment
 LC_PAPER = om_KE.UTF-8
 # environment
+NO_AT_BRIDGE = 1
+# environment
 QT_ACCESSIBILITY = 1
 # default
 MAKEFILES := 
@@ -212,6 +214,8 @@ LC_NUMERIC = om_KE.UTF-8
 LC_MEASUREMENT = om_KE.UTF-8
 # environment
 LC_ALL = C
+# environment
+DBUS_STARTER_BUS_TYPE = session
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # automatic
@@ -233,9 +237,11 @@ LC_ADDRESS = om_KE.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 2322
+VSCODE_PID = 2790
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=a039c979db09055ae9b7ebac62cfb09e
 # variable set hash-table stats:
-# Load=111/1024=11%, Rehash=0, Collisions=18/133=14%
+# Load=114/1024=11%, Rehash=0, Collisions=18/136=13%
 
 # Pattern-specific Variable Values
 
@@ -243,9 +249,9 @@ VSCODE_PID = 2322
 
 # Directories
 
-# . (device 2050, inode 11309921): 7 files, no impossibilities.
+# . (device 2050, inode 11309921): 12 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -275,12 +281,12 @@ makefile:
 #  Failed to be updated.
 
 # Not a target:
+ 
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
- 
 # Not a target:
 GNUmakefile:
 #  Implicit rule search has been done.
@@ -296,12 +302,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 138 B / avg = 9 B
-# current buf: size = 8162 B / used = 138 B / count = 15 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 20 / storage = 189 B / avg = 9 B
+# current buf: size = 8162 B / used = 189 B / count = 20 / avg = 9 B
 
-# strcache performance: lookups = 18 / hit rate = 16%
+# strcache performance: lookups = 23 / hit rate = 13%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
-# Finished Make data base on Wed Jun  1 18:50:45 2022
+# Load=20/8192=0%, Rehash=0, Collisions=1/23=4%
+# Finished Make data base on Thu Jul 14 09:35:02 2022
 
  
